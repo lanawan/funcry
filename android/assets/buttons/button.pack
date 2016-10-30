@@ -1,0 +1,33 @@
+
+button.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+buttonCryOver
+  rotate: false
+  xy: 1, 1
+  size: 180, 60
+  orig: 180, 60
+  offset: 0, 0
+  index: -1
+buttonCryUp
+  rotate: false
+  xy: 183, 1
+  size: 180, 60
+  orig: 180, 60
+  offset: 0, 0
+  index: -1
+buttonFunOver
+  rotate: false
+  xy: 365, 1
+  size: 180, 60
+  orig: 180, 60
+  offset: 0, 0
+  index: -1
+buttonFunUp
+  rotate: false
+  xy: 547, 1
+  size: 180, 60
+  orig: 180, 60
+  offset: 0, 0
+  index: -1
