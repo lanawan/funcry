@@ -38,6 +38,7 @@ public class MainMenu implements Screen {
 
     @Override
     public void dispose() {
+        background.dispose();
         stage.dispose();
         skin.dispose();
 
@@ -47,7 +48,7 @@ public class MainMenu implements Screen {
     public void show() {
         stage = new Stage(new ScreenViewport());
 
-        background = new Texture("bg.png");
+        background = new Texture("menu/bg.png");
 
         skin = new Skin();
         buttonAtlas = new TextureAtlas("buttons/button.pack");
@@ -77,7 +78,15 @@ public class MainMenu implements Screen {
         buttonFun.addListener(new InputListener() {
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                game.setScreen(new PlayScreen(game));
+                game.setScreen(new CatPlayScreen(game,"fun"));
+                stage.clear();
+                return true;
+            }
+        });
+        buttonCry.addListener(new InputListener() {
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                game.setScreen(new PussyCatsPlayScreen(game,"cry"));
                 stage.clear();
                 return true;
             }
@@ -88,15 +97,15 @@ public class MainMenu implements Screen {
 
     @Override
     public void render(float delta) {
-        Gdx.gl.glClearColor(1, 1, 1, 1);
+        Gdx.gl.glClearColor((float)53/255, 0f, (float)49/255, 0f);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 
-        stage.act();
 
         batch.begin();
-        stage.draw();
+        batch.draw(background,0,0);
         batch.end();
-
+        stage.act();
+        stage.draw();
     }
     @Override
     public void resize(int width, int height) {

@@ -9,7 +9,7 @@ import com.badlogic.gdx.utils.Array;
  * Created by Java-программист on 24.10.2016.
  */
 
-public class Character {
+public class PussyCats {
     private Array<Texture> faces;
     private Array<Music> cries;
     private int posX;
@@ -21,7 +21,7 @@ public class Character {
     private Music activeCry;
     private int characterState;
 
-    public Character(Array<Texture> faces, Array<Music> cries, int posX, int posY, boolean active) {
+    public PussyCats(Array<Texture> faces, Array<Music> cries, int posX, int posY, boolean active) {
         characterState = 0;
         defaultWidth = faces.get(0).getWidth();
         defaultHeight = faces.get(0).getHeight();

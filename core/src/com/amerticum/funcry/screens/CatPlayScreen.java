@@ -1,7 +1,7 @@
 package com.amerticum.funcry.screens;
 
 import com.amerticum.funcry.Constants;
-import com.amerticum.funcry.model.Character;
+import com.amerticum.funcry.model.PussyCats;
 import com.amerticum.funcry.model.TouchInfo;
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
@@ -22,17 +22,9 @@ import java.util.Map;
  * Created by Java-программист on 24.10.2016.
  */
 
-public class PlayScreen implements Screen, InputProcessor {
-    private Array<Character> CryingEntities;
-    private Map<Integer, TouchInfo> touches = new HashMap<Integer, TouchInfo>();
-    private int defaultHeight;
-    private int counter=0;
-    private Game game;
-    private OrthographicCamera camera;
-    private SpriteBatch batch;
-    private Vector3 touchPos;
+public class CatPlayScreen implements Screen, InputProcessor {
 
-    public PlayScreen(Game game) {
+    public CatPlayScreen(Game game) {
         this.game = game;
         touchPos = new Vector3();
 
@@ -40,22 +32,22 @@ public class PlayScreen implements Screen, InputProcessor {
             touches.put(i, new TouchInfo());
         }
 
-        CryingEntities = new Array<Character>();
+        CryingEntities = new Array<PussyCats>();
         for (int i = 1; i <= Constants.CHARACTER_COUNT; i++) {
             Array<Texture> tf = new Array<Texture>();
             Array<Music> ac = new Array<Music>();
             for (int j = 1; j <= Constants.CRIES_COUNT; j++) {
-                Music cry = Gdx.audio.newMusic(Gdx.files.internal("characters/sounds/"+i + "characterCry" + j + ".mp3"));
+                Music cry = Gdx.audio.newMusic(Gdx.files.internal("characters/"+subdir+"/sounds/"+i + "characterCry" + j + ".mp3"));
                 cry.setLooping(true);
                 cry.setVolume(0.1f);
                 ac.add(cry);
                 if(j==1){
-                    defaultHeight = new Texture("characters/faces/"+i+"characterFace" + j + ".png").getHeight();
+                    defaultHeight = new Texture("characters/"+subdir+"/faces/"+i+"characterFace" + j + ".png").getHeight();
                 }
-                tf.add(new Texture("characters/faces/"+i+"characterFace" + j + ".png"));
+                tf.add(new Texture("characters/"+subdir+"/faces/"+i+"characterFace" + j + ".png"));
             }
 
-            CryingEntities.add(new Character(tf, ac, 0, 0, false));
+            CryingEntities.add(new PussyCats(tf, ac, 0, 0, false));
         }
         camera = new OrthographicCamera(Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
         batch = new SpriteBatch();
@@ -74,15 +66,15 @@ public class PlayScreen implements Screen, InputProcessor {
 
     @Override
     public void render(float delta) {
-        Gdx.gl.glClearColor(0, 1, 1, 0);
+        Gdx.gl.glClearColor((float)53/255, 0f, (float)49/255, 0f);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
         //camera.update();
-		//batch.setProjectionMatrix(camera.combined);
+        //batch.setProjectionMatrix(camera.combined);
 
         batch.begin();
-        for (Character ce : CryingEntities) {
+        for (PussyCats ce : CryingEntities) {
             if (ce.isActive()) {
-                batch.draw(ce.getFace(), ce.getPosX() , ce.getPosY());
+                batch.draw(ce.getFace(), ce.getPosX() , Constants.SCREEN_HEIGHT-ce.getPosY());
             }
         }
         batch.end();
@@ -107,7 +99,7 @@ public class PlayScreen implements Screen, InputProcessor {
     }
     @Override
     public void dispose() {
-        for (Character ce : CryingEntities) ce.dispose();
+        for (PussyCats ce : CryingEntities) ce.dispose();
         touches.clear();
     }
 
@@ -139,7 +131,7 @@ public class PlayScreen implements Screen, InputProcessor {
                 CryingEntities.get(pointer).increaseCharacterState();
                 counter=0;
             }
-System.out.printf("Position : %d %d\n",Gdx.input.getX(pointer),Gdx.input.getY(pointer));
+            System.out.printf("Position : %d %d\n",Gdx.input.getX(pointer),Gdx.input.getY(pointer));
         }
         return true;
     }
