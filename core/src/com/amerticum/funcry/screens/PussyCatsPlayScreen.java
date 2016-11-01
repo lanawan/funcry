@@ -139,7 +139,6 @@ public class PussyCatsPlayScreen implements Screen, InputProcessor {
                 CryingEntities.get(pointer).increaseCharacterState();
                 counter=0;
             }
-System.out.printf("Position : %d %d\n",Gdx.input.getX(pointer),Gdx.input.getY(pointer));
         }
         return true;
     }

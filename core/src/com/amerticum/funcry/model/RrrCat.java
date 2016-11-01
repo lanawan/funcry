@@ -10,7 +10,7 @@ import com.badlogic.gdx.utils.Array;
  * Created by Java-программист on 01.11.2016.
  */
 
-public class Cat {
+public class RrrCat {
     private TextureAtlas atlas;
     private Music rrr;
     private int posX;
@@ -22,7 +22,7 @@ public class Cat {
     private Music activeCry;
     private int characterState;
 
-    public Cat(TextureAtlas atlas, Music rrr, int posX, int posY, boolean active) {
+    public RrrCat(TextureAtlas atlas, Music rrr, int posX, int posY, boolean active) {
         characterState = 0;
         this.atlas = atlas;
         this.rrr = rrr;
