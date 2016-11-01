@@ -45,14 +45,14 @@ public class PussyCatsPlayScreen implements Screen, InputProcessor {
             Array<Texture> tf = new Array<Texture>();
             Array<Music> ac = new Array<Music>();
             for (int j = 1; j <= Constants.CRIES_COUNT; j++) {
-                Music cry = Gdx.audio.newMusic(Gdx.files.internal("characters/"+subdir+"/sounds/"+i + "characterCry" + j + ".mp3"));
+                Music cry = Gdx.audio.newMusic(Gdx.files.internal("cats/cry/sounds/"+i + "cry" + j + ".mp3"));
                 cry.setLooping(true);
                 cry.setVolume(0.1f);
                 ac.add(cry);
                 if(j==1){
-                    defaultHeight = new Texture("characters/"+subdir+"/faces/"+i+"characterFace" + j + ".png").getHeight();
+                    defaultHeight = new Texture("cats/cry/images/"+i+"image" + j + ".png").getHeight();
                 }
-                tf.add(new Texture("characters/"+subdir+"/faces/"+i+"characterFace" + j + ".png"));
+                tf.add(new Texture("cats/cry/images/"+i+"image" + j + ".png"));
             }
 
             CryingEntities.add(new PussyCats(tf, ac, 0, 0, false));

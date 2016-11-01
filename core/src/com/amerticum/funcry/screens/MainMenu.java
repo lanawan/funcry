@@ -78,7 +78,7 @@ public class MainMenu implements Screen {
         buttonFun.addListener(new InputListener() {
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                game.setScreen(new CatPlayScreen(game,"fun"));
+                //game.setScreen(new CatPlayScreen(game,"fun"));
                 stage.clear();
                 return true;
             }
@@ -86,7 +86,7 @@ public class MainMenu implements Screen {
         buttonCry.addListener(new InputListener() {
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                game.setScreen(new PussyCatsPlayScreen(game,"cry"));
+                game.setScreen(new PussyCatsPlayScreen(game));
                 stage.clear();
                 return true;
             }

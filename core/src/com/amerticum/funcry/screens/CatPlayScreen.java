@@ -1,6 +1,7 @@
 package com.amerticum.funcry.screens;
 
 import com.amerticum.funcry.Constants;
+import com.amerticum.funcry.model.Cat;
 import com.amerticum.funcry.model.PussyCats;
 import com.amerticum.funcry.model.TouchInfo;
 import com.badlogic.gdx.Game;
@@ -12,8 +13,12 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.math.Vector3;
+import com.badlogic.gdx.scenes.scene2d.Stage;
+import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.utils.Array;
+import com.badlogic.gdx.utils.viewport.ScreenViewport;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -23,36 +28,32 @@ import java.util.Map;
  */
 
 public class CatPlayScreen implements Screen, InputProcessor {
+    private Stage stage;
+    private Cat cat;
+    private TextureAtlas catAtlas;
+    private Music rrr;
+    private int defaultHeight;
+    private int counter=0;
+    private Game game;
+    private OrthographicCamera camera;
+    private SpriteBatch batch;
+    private Vector3 touchPos;
+    private Skin skin;
 
     public CatPlayScreen(Game game) {
         this.game = game;
-        touchPos = new Vector3();
+        stage = new Stage(new ScreenViewport());
+        catAtlas = new TextureAtlas("cats/fun/cat.pack");
+        rrr = Gdx.audio.newMusic(Gdx.files.internal("cats/fun/rrr.mp3"));
+        cat = new Cat(catAtlas,rrr,0,0,false);
 
-        for (int i = 0; i < Constants.CHARACTER_COUNT; i++) {
-            touches.put(i, new TouchInfo());
-        }
-
-        CryingEntities = new Array<PussyCats>();
-        for (int i = 1; i <= Constants.CHARACTER_COUNT; i++) {
-            Array<Texture> tf = new Array<Texture>();
-            Array<Music> ac = new Array<Music>();
-            for (int j = 1; j <= Constants.CRIES_COUNT; j++) {
-                Music cry = Gdx.audio.newMusic(Gdx.files.internal("characters/"+subdir+"/sounds/"+i + "characterCry" + j + ".mp3"));
-                cry.setLooping(true);
-                cry.setVolume(0.1f);
-                ac.add(cry);
-                if(j==1){
-                    defaultHeight = new Texture("characters/"+subdir+"/faces/"+i+"characterFace" + j + ".png").getHeight();
-                }
-                tf.add(new Texture("characters/"+subdir+"/faces/"+i+"characterFace" + j + ".png"));
-            }
-
-            CryingEntities.add(new PussyCats(tf, ac, 0, 0, false));
-        }
         camera = new OrthographicCamera(Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
         batch = new SpriteBatch();
-        Gdx.input.setInputProcessor(this);
 
+        skin = new Skin();
+        skin.addRegions(catAtlas);
+
+        Gdx.input.setInputProcessor(stage);
     }
     @Override
     public void show(){
@@ -66,19 +67,6 @@ public class CatPlayScreen implements Screen, InputProcessor {
 
     @Override
     public void render(float delta) {
-        Gdx.gl.glClearColor((float)53/255, 0f, (float)49/255, 0f);
-        Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-        //camera.update();
-        //batch.setProjectionMatrix(camera.combined);
-
-        batch.begin();
-        for (PussyCats ce : CryingEntities) {
-            if (ce.isActive()) {
-                batch.draw(ce.getFace(), ce.getPosX() , Constants.SCREEN_HEIGHT-ce.getPosY());
-            }
-        }
-        batch.end();
-
     }
     @Override
     public void hide() {
@@ -99,8 +87,6 @@ public class CatPlayScreen implements Screen, InputProcessor {
     }
     @Override
     public void dispose() {
-        for (PussyCats ce : CryingEntities) ce.dispose();
-        touches.clear();
     }
 
     @Override
@@ -120,42 +106,17 @@ public class CatPlayScreen implements Screen, InputProcessor {
 
     @Override
     public boolean touchDown(int screenX, int screenY, int pointer, int button) {
-        if (pointer < Constants.CHARACTER_COUNT) {
-            //camera.unproject(touchPos.set(Gdx.input.getX(pointer), Gdx.input.getY(pointer), 0));
-
-            CryingEntities.get(pointer).setActive(true);
-            CryingEntities.get(pointer).setPosX(Gdx.input.getX(pointer));
-            CryingEntities.get(pointer).setPosY(Gdx.input.getY(pointer));
-            counter++;
-            if(counter > Constants.VELOCITY){
-                CryingEntities.get(pointer).increaseCharacterState();
-                counter=0;
-            }
-            System.out.printf("Position : %d %d\n",Gdx.input.getX(pointer),Gdx.input.getY(pointer));
-        }
-        return true;
+        return false;
     }
 
     @Override
     public boolean touchUp(int screenX, int screenY, int pointer, int button) {
-        if(pointer < Constants.CHARACTER_COUNT){
-            CryingEntities.get(pointer).setActive(false);
-            CryingEntities.get(pointer).setPosX(0);
-            CryingEntities.get(pointer).setPosY(0);
-        }
-        return true;
+        return false;
     }
 
     @Override
     public boolean touchDragged(int screenX, int screenY, int pointer) {
-        if (pointer < Constants.CHARACTER_COUNT) {
-            //camera.unproject(touchPos.set(Gdx.input.getX(pointer), Gdx.input.getY(pointer), 0));
-
-            CryingEntities.get(pointer).setActive(true);
-            CryingEntities.get(pointer).setPosX(Gdx.input.getX(pointer));
-            CryingEntities.get(pointer).setPosY(Gdx.input.getY(pointer));
-        }
-        return true;
+        return false;
     }
 
     @Override
