@@ -45,7 +45,7 @@ public class PussyCatsPlayScreen implements Screen, InputProcessor {
             Array<Texture> tf = new Array<Texture>();
             Array<Music> ac = new Array<Music>();
             for (int j = 1; j <= Constants.CRIES_COUNT; j++) {
-                Music cry = Gdx.audio.newMusic(Gdx.files.internal("cats/cry/sounds/"+i + "cry" + j + ".mp3"));
+                Music cry = Gdx.audio.newMusic(Gdx.files.internal("cats/cry/sounds/" + i + "cry" + j + ".mp3"));
                 cry.setLooping(true);
                 cry.setVolume(0.1f);
                 ac.add(cry);
@@ -57,7 +57,8 @@ public class PussyCatsPlayScreen implements Screen, InputProcessor {
 
             CryingEntities.add(new PussyCats(tf, ac, 0, 0, false));
         }
-        camera = new OrthographicCamera(Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
+        camera = new OrthographicCamera();
+        camera.setToOrtho(false, Constants.SCREEN_WIDTH, Constants.SCREEN_HEIGHT);
         batch = new SpriteBatch();
         Gdx.input.setInputProcessor(this);
 
@@ -76,13 +77,13 @@ public class PussyCatsPlayScreen implements Screen, InputProcessor {
     public void render(float delta) {
         Gdx.gl.glClearColor((float)53/255, 0f, (float)49/255, 0f);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-        //camera.update();
-		//batch.setProjectionMatrix(camera.combined);
+        camera.update();
+		batch.setProjectionMatrix(camera.combined);
 
         batch.begin();
         for (PussyCats ce : CryingEntities) {
             if (ce.isActive()) {
-                batch.draw(ce.getFace(), ce.getPosX() , Constants.SCREEN_HEIGHT-ce.getPosY());
+                batch.draw(ce.getFace(), ce.getPosX() , Gdx.graphics.getHeight()-ce.getPosY());
             }
         }
         batch.end();
@@ -129,13 +130,13 @@ public class PussyCatsPlayScreen implements Screen, InputProcessor {
     @Override
     public boolean touchDown(int screenX, int screenY, int pointer, int button) {
         if (pointer < Constants.CHARACTER_COUNT) {
-            //camera.unproject(touchPos.set(Gdx.input.getX(pointer), Gdx.input.getY(pointer), 0));
+            camera.unproject(touchPos.set(Gdx.input.getX(pointer), Gdx.input.getY(pointer), 0));
 
             CryingEntities.get(pointer).setActive(true);
             CryingEntities.get(pointer).setPosX(Gdx.input.getX(pointer));
             CryingEntities.get(pointer).setPosY(Gdx.input.getY(pointer));
             counter++;
-            if(counter > Constants.VELOCITY){
+            if(counter > Constants.CRIES_VELOCITY){
                 CryingEntities.get(pointer).increaseCharacterState();
                 counter=0;
             }
@@ -156,11 +157,16 @@ public class PussyCatsPlayScreen implements Screen, InputProcessor {
     @Override
     public boolean touchDragged(int screenX, int screenY, int pointer) {
         if (pointer < Constants.CHARACTER_COUNT) {
-            //camera.unproject(touchPos.set(Gdx.input.getX(pointer), Gdx.input.getY(pointer), 0));
+            camera.unproject(touchPos.set(Gdx.input.getX(pointer), Gdx.input.getY(pointer), 0));
 
             CryingEntities.get(pointer).setActive(true);
             CryingEntities.get(pointer).setPosX(Gdx.input.getX(pointer));
             CryingEntities.get(pointer).setPosY(Gdx.input.getY(pointer));
+            counter++;
+            if(counter > Constants.CRIES_VELOCITY){
+                CryingEntities.get(pointer).increaseCharacterState();
+                counter=0;
+            }
         }
         return true;
     }

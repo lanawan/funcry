@@ -1,10 +1,12 @@
 package com.amerticum.funcry.screens;
 
 
+import com.amerticum.funcry.Constants;
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
+import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
@@ -14,7 +16,9 @@ import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.ImageButton;
 import com.badlogic.gdx.scenes.scene2d.ui.ImageButton.ImageButtonStyle;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
+import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
+import com.badlogic.gdx.utils.viewport.Viewport;
 
 /**
  * Created by Java-программист on 25.10.2016.
@@ -29,6 +33,8 @@ public class MainMenu implements Screen {
     private Skin skin;
     private SpriteBatch batch;
     private Game game;
+    private OrthographicCamera camera;
+    private Viewport viewport;
 
 
     public MainMenu(Game game) {
@@ -78,7 +84,7 @@ public class MainMenu implements Screen {
         buttonFun.addListener(new InputListener() {
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                //game.setScreen(new RrrCatPlayScreen(game));
+                game.setScreen(new RrrCatPlayScreen(game));
                 stage.clear();
                 return true;
             }
@@ -92,6 +98,9 @@ public class MainMenu implements Screen {
             }
         });
 
+        camera = new OrthographicCamera();
+        camera.setToOrtho(false, Constants.SCREEN_WIDTH, Constants.SCREEN_HEIGHT);
+
         batch = new SpriteBatch();
     }
 
@@ -100,9 +109,11 @@ public class MainMenu implements Screen {
         Gdx.gl.glClearColor((float)53/255, 0f, (float)49/255, 0f);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 
+        camera.update();
+        batch.setProjectionMatrix(camera.combined);
 
         batch.begin();
-        batch.draw(background,0,0);
+        batch.draw(background, 0, 0);
         batch.end();
         stage.act();
         stage.draw();

@@ -25,6 +25,10 @@ ADDED from C:\dev\Android\Projects\funcry\android\AndroidManifest.xml:7:5-73
 		ADDED from C:\dev\Android\Projects\funcry\android\AndroidManifest.xml:7:15-40
 		INJECTED from C:\dev\Android\Projects\funcry\android\AndroidManifest.xml
 		INJECTED from C:\dev\Android\Projects\funcry\android\AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from C:\dev\Android\Projects\funcry\android\AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from C:\dev\Android\Projects\funcry\android\AndroidManifest.xml:8:22-63
 application
 ADDED from C:\dev\Android\Projects\funcry\android\AndroidManifest.xml:9:5-24:19
 	android:label

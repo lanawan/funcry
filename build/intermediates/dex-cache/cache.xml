@@ -8,16 +8,16 @@
         optimize="true"
         revision="23.0.3"
         sha1="4b4b7962d1bc75af0438f5c81ec1010557bc9ee5">
-        <dex dex="C:\dev\Android\Projects\FunCry\android\build\intermediates\pre-dexed\debug\gdx-1.9.4_13f56e14c2e5a562a105afd4284351d0ade37cc4.jar" />
+        <dex dex="C:\dev\Android\Projects\funcry\android\build\intermediates\pre-dexed\debug\gdx-1.9.4_13f56e14c2e5a562a105afd4284351d0ade37cc4.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\dev\Android\Projects\FunCry\core\build\libs\core-1.0.jar"
+        jar="C:\dev\Android\Projects\funcry\core\build\libs\core-1.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="acca9ff4f6421f791275b731d1c96ee7c7eb6d40">
-        <dex dex="C:\dev\Android\Projects\FunCry\android\build\intermediates\pre-dexed\debug\core-1.0_99e7a9c44f2b1d7d43c63b785957b58781573587.jar" />
+        sha1="a2bc59d4fad3886d413286802943124e312456d6">
+        <dex dex="C:\dev\Android\Projects\funcry\android\build\intermediates\pre-dexed\debug\core-1.0_cd6cff57b57f65c5956e1d80691c518cbfab268f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -26,7 +26,7 @@
         optimize="true"
         revision="23.0.3"
         sha1="98a0d25c9f0637fecac6e4aacf7287aa635964f5">
-        <dex dex="C:\dev\Android\Projects\FunCry\android\build\intermediates\pre-dexed\debug\gdx-box2d-1.9.4_0e066a9dade033a8c7a599c2f6d1c5b1470fe56f.jar" />
+        <dex dex="C:\dev\Android\Projects\funcry\android\build\intermediates\pre-dexed\debug\gdx-box2d-1.9.4_0e066a9dade033a8c7a599c2f6d1c5b1470fe56f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -35,7 +35,7 @@
         optimize="true"
         revision="23.0.3"
         sha1="4b4b7962d1bc75af0438f5c81ec1010557bc9ee5">
-        <dex dex="C:\dev\Android\Projects\FunCry\android\build\intermediates\pre-dexed\debug\gdx-1.9.4_13f56e14c2e5a562a105afd4284351d0ade37cc4.jar" />
+        <dex dex="C:\dev\Android\Projects\funcry\android\build\intermediates\pre-dexed\debug\gdx-1.9.4_13f56e14c2e5a562a105afd4284351d0ade37cc4.jar" />
     </item>
     <item
         is-multidex="false"
@@ -44,7 +44,7 @@
         optimize="true"
         revision="23.0.3"
         sha1="98a0d25c9f0637fecac6e4aacf7287aa635964f5">
-        <dex dex="C:\dev\Android\Projects\FunCry\android\build\intermediates\pre-dexed\debug\gdx-box2d-1.9.4_0e066a9dade033a8c7a599c2f6d1c5b1470fe56f.jar" />
+        <dex dex="C:\dev\Android\Projects\funcry\android\build\intermediates\pre-dexed\debug\gdx-box2d-1.9.4_0e066a9dade033a8c7a599c2f6d1c5b1470fe56f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -53,7 +53,7 @@
         optimize="true"
         revision="23.0.3"
         sha1="194b33382d6d58fad031521ba3331d926c476c9b">
-        <dex dex="C:\dev\Android\Projects\FunCry\android\build\intermediates\pre-dexed\debug\gdx-backend-android-1.9.4_1583977da1d2358a2cb9e685c9edfd59a5e94444.jar" />
+        <dex dex="C:\dev\Android\Projects\funcry\android\build\intermediates\pre-dexed\debug\gdx-backend-android-1.9.4_1583977da1d2358a2cb9e685c9edfd59a5e94444.jar" />
     </item>
     <item
         is-multidex="false"
@@ -62,7 +62,7 @@
         optimize="true"
         revision="23.0.3"
         sha1="194b33382d6d58fad031521ba3331d926c476c9b">
-        <dex dex="C:\dev\Android\Projects\FunCry\android\build\intermediates\pre-dexed\debug\gdx-backend-android-1.9.4_1583977da1d2358a2cb9e685c9edfd59a5e94444.jar" />
+        <dex dex="C:\dev\Android\Projects\funcry\android\build\intermediates\pre-dexed\debug\gdx-backend-android-1.9.4_1583977da1d2358a2cb9e685c9edfd59a5e94444.jar" />
     </item>
 
 </items>
