@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
-    api-level="19"
+    abi="x86"
+    api-level="18"
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="81959033701336"
+    timestamp="165379521349266"
     token="5554115804123288742"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="148" />
+        duration="155" />
     <task
         name="instant-run-dex"
         duration="0" />
@@ -27,7 +27,7 @@
         type="MAIN" />
 
     <build
-        timestamp="81959033701336"
+        timestamp="165379521349266"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\dev\Android\Projects\funcry\android\build\outputs\apk\android-debug.apk"

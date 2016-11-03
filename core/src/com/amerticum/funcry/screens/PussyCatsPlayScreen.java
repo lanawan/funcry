@@ -13,7 +13,11 @@ import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Vector3;
+import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.utils.Array;
+import com.badlogic.gdx.utils.viewport.FitViewport;
+import com.badlogic.gdx.utils.viewport.StretchViewport;
+import com.badlogic.gdx.utils.viewport.Viewport;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -31,9 +35,13 @@ public class PussyCatsPlayScreen implements Screen, InputProcessor {
     private OrthographicCamera camera;
     private SpriteBatch batch;
     private Vector3 touchPos;
+    private Viewport viewport;
+    private Texture background;
 
     public PussyCatsPlayScreen(Game game) {
         this.game = game;
+        background = new Texture("menu/bg.png");
+/*
         touchPos = new Vector3();
 
         for (int i = 0; i < Constants.CHARACTER_COUNT; i++) {
@@ -57,9 +65,19 @@ public class PussyCatsPlayScreen implements Screen, InputProcessor {
 
             CryingEntities.add(new PussyCats(tf, ac, 0, 0, false));
         }
-        camera = new OrthographicCamera();
-        camera.setToOrtho(false, Constants.SCREEN_WIDTH, Constants.SCREEN_HEIGHT);
+*/
         batch = new SpriteBatch();
+
+        camera = new OrthographicCamera();
+        //viewport = new FitViewport((float)Constants.SCREEN_WIDTH,(float)Constants.SCREEN_HEIGHT,camera);
+        viewport = new StretchViewport((float)Constants.SCREEN_WIDTH,(float)Constants.SCREEN_HEIGHT,camera);
+        viewport.apply();
+        camera.position.set(camera.viewportHeight/2, camera.viewportHeight/2,0);
+        camera.update();
+
+
+        //camera.setToOrtho(false, Constants.SCREEN_WIDTH, Constants.SCREEN_HEIGHT);
+
         Gdx.input.setInputProcessor(this);
 
     }
@@ -77,15 +95,16 @@ public class PussyCatsPlayScreen implements Screen, InputProcessor {
     public void render(float delta) {
         Gdx.gl.glClearColor((float)53/255, 0f, (float)49/255, 0f);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-        camera.update();
-		batch.setProjectionMatrix(camera.combined);
-
+        batch.setProjectionMatrix(camera.combined);
         batch.begin();
+        batch.draw(background,0,0);
+/*
         for (PussyCats ce : CryingEntities) {
             if (ce.isActive()) {
                 batch.draw(ce.getFace(), ce.getPosX() , Gdx.graphics.getHeight()-ce.getPosY());
             }
         }
+*/
         batch.end();
 
     }
@@ -129,6 +148,7 @@ public class PussyCatsPlayScreen implements Screen, InputProcessor {
 
     @Override
     public boolean touchDown(int screenX, int screenY, int pointer, int button) {
+/*
         if (pointer < Constants.CHARACTER_COUNT) {
             camera.unproject(touchPos.set(Gdx.input.getX(pointer), Gdx.input.getY(pointer), 0));
 
@@ -142,20 +162,26 @@ public class PussyCatsPlayScreen implements Screen, InputProcessor {
             }
         }
         return true;
+*/
+        return false;
     }
 
     @Override
     public boolean touchUp(int screenX, int screenY, int pointer, int button) {
+/*
         if(pointer < Constants.CHARACTER_COUNT){
             CryingEntities.get(pointer).setActive(false);
             CryingEntities.get(pointer).setPosX(0);
             CryingEntities.get(pointer).setPosY(0);
         }
         return true;
+*/
+        return false;
     }
 
     @Override
     public boolean touchDragged(int screenX, int screenY, int pointer) {
+/*
         if (pointer < Constants.CHARACTER_COUNT) {
             camera.unproject(touchPos.set(Gdx.input.getX(pointer), Gdx.input.getY(pointer), 0));
 
@@ -169,6 +195,8 @@ public class PussyCatsPlayScreen implements Screen, InputProcessor {
             }
         }
         return true;
+*/
+        return false;
     }
 
     @Override

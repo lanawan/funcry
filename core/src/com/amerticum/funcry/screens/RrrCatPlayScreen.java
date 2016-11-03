@@ -34,11 +34,9 @@ public class RrrCatPlayScreen implements Screen, InputProcessor {
     private float elapsedTime = 0;
     private float pleasureLvl = 0.0f;
     private float defaultWidth, defaultHeight;
-    //private Vibrator vib;
 
     public RrrCatPlayScreen(Game game) {
         batch = new SpriteBatch();
-        //vib v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
         rrrCatAtlas = new TextureAtlas("cats/fun/cat.pack");
         rrrCatAnimation = new Animation(Constants.RRR_ANIMATION_SPEED,rrrCatAtlas.getRegions());
 
@@ -136,9 +134,6 @@ public class RrrCatPlayScreen implements Screen, InputProcessor {
         }
         if(pleasureLvl < 1f){
             pleasureLvl += 1f/Constants.RRR__MAX_PLEASURE_LVL;
-        }
-        if(pleasureLvl==1f){
-            Gdx.input.vibrate(100);
         }
         //System.out.println(pleasureLvl);
         return true;

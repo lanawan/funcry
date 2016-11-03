@@ -1,298 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e76c8353-5d4d-4be9-9ec9-b3ffe69f65e6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cat01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cat02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cat03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cat04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cat05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cat06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cat07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cat08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cat09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cat10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cat11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cat12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cat13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cat14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cats/cry/images/1image1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cats/cry/images/1image2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cats/cry/images/1image3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cats/cry/images/2image1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cats/cry/images/2image2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cats/cry/images/2image3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cats/cry/images/3image1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cats/cry/images/3image2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cats/cry/images/3image3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cats/cry/sounds/1cry1.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cats/cry/sounds/1cry2.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cats/cry/sounds/1cry3.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cats/cry/sounds/2cry1.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cats/cry/sounds/2cry2.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cats/cry/sounds/2cry3.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cats/cry/sounds/3cry1.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cats/cry/sounds/3cry2.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cats/cry/sounds/3cry3.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cats/fun/cat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cats/fun/rrr.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/menu/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/tumblr_m18qpmMAyN1qiz3j8o1_500.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0000_Слой-71.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0001_Слой-70.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0002_Слой-69.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0003_Слой-68.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0004_Слой-67.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0005_Слой-66.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0006_Слой-65.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0007_Слой-64.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0008_Слой-63.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0009_Слой-62.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0010_Слой-61.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0011_Слой-60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0012_Слой-59.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0013_Слой-58.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0014_Слой-57.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0015_Слой-56.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0016_Слой-55.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0017_Слой-54.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0018_Слой-53.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0019_Слой-52.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0020_Слой-51.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0021_Слой-50.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0022_Слой-49.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0023_Слой-48.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0024_Слой-47.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0025_Слой-46.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0026_Слой-45.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0027_Слой-44.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0028_Слой-43.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0029_Слой-42.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0030_Слой-41.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0031_Слой-40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0032_Слой-39.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0033_Слой-38.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0034_Слой-37.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0035_Слой-36.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0036_Слой-35.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0037_Слой-34.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0038_Слой-33.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0039_Слой-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0040_Слой-31.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0041_Слой-30.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0042_Слой-29.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0043_Слой-28.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0044_Слой-27.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0045_Слой-26.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0046_Слой-25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0047_Слой-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0048_Слой-23.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0049_Слой-22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0050_Слой-21.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0051_Слой-20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0052_Слой-19.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0053_Слой-18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0054_Слой-17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0055_Слой-16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0056_Слой-15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0057_Слой-14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0058_Слой-13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0059_Слой-12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0060_Слой-11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0061_Слой-10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0062_Слой-9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0063_Слой-8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0064_Слой-7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0065_Слой-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0066_Слой-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0067_Слой-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0068_Слой-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0069_Слой-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0070_Слой-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/buttons/button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cat01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cat02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cat03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cat04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cat05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cat06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cat07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cat08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cat09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cat10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cat11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cat12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cat13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cat14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cats/cry/images/1image1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cats/cry/images/1image2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cats/cry/images/1image3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cats/cry/images/2image1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cats/cry/images/2image2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cats/cry/images/2image3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cats/cry/images/3image1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cats/cry/images/3image2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cats/cry/images/3image3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cats/cry/sounds/1cry1.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cats/cry/sounds/1cry2.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cats/cry/sounds/1cry3.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cats/cry/sounds/2cry1.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cats/cry/sounds/2cry2.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cats/cry/sounds/2cry3.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cats/cry/sounds/3cry1.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cats/cry/sounds/3cry2.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cats/cry/sounds/3cry3.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cats/fun/cat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cats/fun/rrr.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/menu/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/tumblr_m18qpmMAyN1qiz3j8o1_500.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/amerticum/funcry/AndroidLauncher.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/amerticum/funcry/BuildConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/amerticum/funcry/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/amerticum/funcry/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/amerticum/funcry/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/amerticum/funcry/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/amerticum/funcry/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/AndroidLauncher.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/BuildConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/Constants.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/FunCry.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/model/PussyCats.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/model/RrrCat.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/model/TouchInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/screens/MainMenu$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/screens/MainMenu$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/screens/MainMenu.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/screens/PussyCatsPlayScreen.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/screens/RrrCatPlayScreen.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/zip-cache/+hgWc2gbB96IjbqYJX8kszcruXs=" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/zip-cache/hmU5fEAFF60Ev+0ZiLc0RXgJcL8=" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/hmU5fEAFF60Ev+0ZiLc0RXgJcL8=" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/arm64-v8a/libgdx-box2d.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/arm64-v8a/libgdx.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/armeabi-v7a/libgdx-box2d.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/armeabi-v7a/libgdx.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/armeabi/libgdx-box2d.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/armeabi/libgdx.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/x86/libgdx-box2d.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/x86/libgdx.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/x86_64/libgdx-box2d.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/x86_64/libgdx.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/core-1.0_cd6cff57b57f65c5956e1d80691c518cbfab268f.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/debug_0c99503485e84e504e2445ca9a1d9969021c6843.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/gdx-1.9.4_13f56e14c2e5a562a105afd4284351d0ade37cc4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/gdx-backend-android-1.9.4_1583977da1d2358a2cb9e685c9edfd59a5e94444.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/gdx-box2d-1.9.4_0e066a9dade033a8c7a599c2f6d1c5b1470fe56f.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/folders/1/4/core-1.0.jar--942865347/com/amerticum/funcry/Constants.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/folders/1/4/core-1.0.jar--942865347/com/amerticum/funcry/FunCry.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/folders/1/4/core-1.0.jar--942865347/com/amerticum/funcry/model/PussyCats.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/folders/1/4/core-1.0.jar--942865347/com/amerticum/funcry/model/RrrCat.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/folders/1/4/core-1.0.jar--942865347/com/amerticum/funcry/model/TouchInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/folders/1/4/core-1.0.jar--942865347/com/amerticum/funcry/screens/MainMenu$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/folders/1/4/core-1.0.jar--942865347/com/amerticum/funcry/screens/MainMenu$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/folders/1/4/core-1.0.jar--942865347/com/amerticum/funcry/screens/MainMenu.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/folders/1/4/core-1.0.jar--942865347/com/amerticum/funcry/screens/PussyCatsPlayScreen.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/folders/1/4/core-1.0.jar--942865347/com/amerticum/funcry/screens/RrrCatPlayScreen.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/AndroidLauncher.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/BuildConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/Constants.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/FunCry.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/model/PussyCats.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/model/RrrCat.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/model/TouchInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/screens/MainMenu$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/screens/MainMenu$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/screens/MainMenu.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/screens/PussyCatsPlayScreen.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/screens/RrrCatPlayScreen.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/arm64-v8a/libgdx-box2d.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/arm64-v8a/libgdx.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/armeabi-v7a/libgdx-box2d.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/armeabi-v7a/libgdx.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/armeabi/libgdx-box2d.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/armeabi/libgdx.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86/libgdx-box2d.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86/libgdx.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86_64/libgdx-box2d.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86_64/libgdx.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_alpdsr3m3442abpm2l2dpnsf5/com/amerticum/funcry/Constants.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_alpdsr3m3442abpm2l2dpnsf5/com/amerticum/funcry/FunCry.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_alpdsr3m3442abpm2l2dpnsf5/com/amerticum/funcry/model/PussyCats.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_alpdsr3m3442abpm2l2dpnsf5/com/amerticum/funcry/model/RrrCat.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_alpdsr3m3442abpm2l2dpnsf5/com/amerticum/funcry/model/TouchInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_alpdsr3m3442abpm2l2dpnsf5/com/amerticum/funcry/screens/MainMenu$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_alpdsr3m3442abpm2l2dpnsf5/com/amerticum/funcry/screens/MainMenu$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_alpdsr3m3442abpm2l2dpnsf5/com/amerticum/funcry/screens/MainMenu.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_alpdsr3m3442abpm2l2dpnsf5/com/amerticum/funcry/screens/PussyCatsPlayScreen.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_alpdsr3m3442abpm2l2dpnsf5/com/amerticum/funcry/screens/RrrCatPlayScreen.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/build/classes/main/com/amerticum/funcry/Constants.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/build/classes/main/com/amerticum/funcry/FunCry.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/build/classes/main/com/amerticum/funcry/model/PussyCats.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/build/classes/main/com/amerticum/funcry/model/RrrCat.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/build/classes/main/com/amerticum/funcry/model/TouchInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/build/classes/main/com/amerticum/funcry/screens/MainMenu$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/build/classes/main/com/amerticum/funcry/screens/MainMenu$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/build/classes/main/com/amerticum/funcry/screens/MainMenu.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/build/classes/main/com/amerticum/funcry/screens/PussyCatsPlayScreen.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/build/classes/main/com/amerticum/funcry/screens/RrrCatPlayScreen.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/build/classes/main/com/amerticum/funcry/desktop/DesktopLauncher.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/build/libs/desktop-1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/cats/fun/cat.pack" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/buttons/button.pack" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cats/fun/cat.pack" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-safeguard/debug/tag.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugShaders/merger.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/manifest.crc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/manifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/restart-dex/debug/build-info.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/build/tmp/jar/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/build/tmp/jar/MANIFEST.MF" />
+    <list default="true" id="e76c8353-5d4d-4be9-9ec9-b3ffe69f65e6" name="Default" comment="Camera ajusted">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/buttons/cry.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/buttons/fun.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/buttons/cry.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/buttons/fun.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/screens/Test.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/instant-run-bootstrap_603d6679967527ea7d4e3bf81c138b8a33109c84.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/instant-run_04c1f8dbed826f5dd1e1ac80d90e30a33de805cc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/main_cbd5b6ab97da00984f226d4b72b06a7721f2906c.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/folders/1/4/core-1.0.jar--942865347/com/amerticum/funcry/screens/Test.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/screens/Test.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_alpdsr3m3442abpm2l2dpnsf5/com/amerticum/funcry/screens/Test.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/build/classes/main/com/amerticum/funcry/screens/Test.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/Test.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0000_Слой-71.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0001_Слой-70.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0002_Слой-69.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0003_Слой-68.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0004_Слой-67.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0005_Слой-66.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0006_Слой-65.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0007_Слой-64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0008_Слой-63.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0009_Слой-62.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0010_Слой-61.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0011_Слой-60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0012_Слой-59.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0013_Слой-58.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0014_Слой-57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0015_Слой-56.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0016_Слой-55.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0017_Слой-54.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0018_Слой-53.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0019_Слой-52.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0020_Слой-51.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0021_Слой-50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0022_Слой-49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0023_Слой-48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0024_Слой-47.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0025_Слой-46.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0026_Слой-45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0027_Слой-44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0028_Слой-43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0029_Слой-42.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0030_Слой-41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0031_Слой-40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0032_Слой-39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0033_Слой-38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0034_Слой-37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0035_Слой-36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0036_Слой-35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0037_Слой-34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0038_Слой-33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0039_Слой-32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0040_Слой-31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0041_Слой-30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0042_Слой-29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0043_Слой-28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0044_Слой-27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0045_Слой-26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0046_Слой-25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0047_Слой-24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0048_Слой-23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0049_Слой-22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0050_Слой-21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0051_Слой-20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0052_Слой-19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0053_Слой-18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0054_Слой-17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0055_Слой-16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0056_Слой-15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0057_Слой-14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0058_Слой-13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0059_Слой-12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0060_Слой-11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0061_Слой-10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0062_Слой-9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0063_Слой-8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0064_Слой-7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0065_Слой-6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0066_Слой-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0067_Слой-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0068_Слой-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0069_Слой-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b1/cat_0070_Слой-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/b2/cat14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/core-1.0_cd6cff57b57f65c5956e1d80691c518cbfab268f.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/debug_0c99503485e84e504e2445ca9a1d9969021c6843.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/screens/MainMenu$1.class" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/screens/MainMenu$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/screens/MainMenu$2.class" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/screens/MainMenu$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/screens/MainMenu.class" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/screens/MainMenu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/screens/PussyCatsPlayScreen.class" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/screens/PussyCatsPlayScreen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/screens/RrrCatPlayScreen.class" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/amerticum/funcry/screens/RrrCatPlayScreen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/zip-cache/hmU5fEAFF60Ev+0ZiLc0RXgJcL8=" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/zip-cache/hmU5fEAFF60Ev+0ZiLc0RXgJcL8=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/hmU5fEAFF60Ev+0ZiLc0RXgJcL8=" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/hmU5fEAFF60Ev+0ZiLc0RXgJcL8=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/android/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/gdx-1.9.4_13f56e14c2e5a562a105afd4284351d0ade37cc4.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/gdx-1.9.4_13f56e14c2e5a562a105afd4284351d0ade37cc4.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/gdx-backend-android-1.9.4_1583977da1d2358a2cb9e685c9edfd59a5e94444.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/gdx-backend-android-1.9.4_1583977da1d2358a2cb9e685c9edfd59a5e94444.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/gdx-box2d-1.9.4_0e066a9dade033a8c7a599c2f6d1c5b1470fe56f.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/gdx-box2d-1.9.4_0e066a9dade033a8c7a599c2f6d1c5b1470fe56f.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FunCry.ipr" afterPath="$PROJECT_DIR$/FunCry.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/folders/1/4/core-1.0.jar--942865347/com/amerticum/funcry/screens/MainMenu$1.class" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/folders/1/4/core-1.0.jar--942865347/com/amerticum/funcry/screens/MainMenu$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/folders/1/4/core-1.0.jar--942865347/com/amerticum/funcry/screens/MainMenu$2.class" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/folders/1/4/core-1.0.jar--942865347/com/amerticum/funcry/screens/MainMenu$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/folders/1/4/core-1.0.jar--942865347/com/amerticum/funcry/screens/MainMenu.class" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/folders/1/4/core-1.0.jar--942865347/com/amerticum/funcry/screens/MainMenu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/folders/1/4/core-1.0.jar--942865347/com/amerticum/funcry/screens/PussyCatsPlayScreen.class" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/folders/1/4/core-1.0.jar--942865347/com/amerticum/funcry/screens/PussyCatsPlayScreen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/folders/1/4/core-1.0.jar--942865347/com/amerticum/funcry/screens/RrrCatPlayScreen.class" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/folders/1/4/core-1.0.jar--942865347/com/amerticum/funcry/screens/RrrCatPlayScreen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/AndroidLauncher.class" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/AndroidLauncher.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/screens/MainMenu$1.class" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/screens/MainMenu$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/screens/MainMenu$2.class" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/screens/MainMenu$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/screens/MainMenu.class" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/screens/MainMenu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/screens/PussyCatsPlayScreen.class" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/screens/PussyCatsPlayScreen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/screens/RrrCatPlayScreen.class" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/amerticum/funcry/screens/RrrCatPlayScreen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" afterPath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_alpdsr3m3442abpm2l2dpnsf5/com/amerticum/funcry/screens/MainMenu$1.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_alpdsr3m3442abpm2l2dpnsf5/com/amerticum/funcry/screens/MainMenu$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_alpdsr3m3442abpm2l2dpnsf5/com/amerticum/funcry/screens/MainMenu$2.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_alpdsr3m3442abpm2l2dpnsf5/com/amerticum/funcry/screens/MainMenu$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_alpdsr3m3442abpm2l2dpnsf5/com/amerticum/funcry/screens/MainMenu.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_alpdsr3m3442abpm2l2dpnsf5/com/amerticum/funcry/screens/MainMenu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_alpdsr3m3442abpm2l2dpnsf5/com/amerticum/funcry/screens/PussyCatsPlayScreen.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_alpdsr3m3442abpm2l2dpnsf5/com/amerticum/funcry/screens/PussyCatsPlayScreen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_alpdsr3m3442abpm2l2dpnsf5/com/amerticum/funcry/screens/RrrCatPlayScreen.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_alpdsr3m3442abpm2l2dpnsf5/com/amerticum/funcry/screens/RrrCatPlayScreen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/com/amerticum/funcry/screens/MainMenu$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/amerticum/funcry/screens/MainMenu$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/com/amerticum/funcry/screens/MainMenu$2.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/amerticum/funcry/screens/MainMenu$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/com/amerticum/funcry/screens/MainMenu.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/amerticum/funcry/screens/MainMenu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/com/amerticum/funcry/screens/PussyCatsPlayScreen.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/amerticum/funcry/screens/PussyCatsPlayScreen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/com/amerticum/funcry/screens/RrrCatPlayScreen.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/amerticum/funcry/screens/RrrCatPlayScreen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FunCry.iws" afterPath="$PROJECT_DIR$/FunCry.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/android.iml" afterPath="$PROJECT_DIR$/android/android.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/manifest.crc" afterPath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/manifest.crc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/manifest.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/manifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/restart-dex/debug/build-info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/MainMenu.java" afterPath="$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/MainMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/PussyCatsPlayScreen.java" afterPath="$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/PussyCatsPlayScreen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/RrrCatPlayScreen.java" afterPath="$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/RrrCatPlayScreen.java" />
     </list>
     <ignored path="FunCry.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -370,8 +246,8 @@
       <file leaf-file-name="MainMenu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/MainMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
-              <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="82" />
+            <state relative-caret-position="578">
+              <caret line="114" column="47" selection-start-line="114" selection-start-column="47" selection-end-line="114" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -379,74 +255,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DesktopLauncher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/desktop/src/com/amerticum/funcry/desktop/DesktopLauncher.java">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="254">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1226#1246#0" expanded="true" />
+                <element signature="e#2165#2174#0" expanded="true" />
+                <element signature="e#2217#2224#0" expanded="true" />
+                <element signature="e#4352#4353#0" expanded="true" />
+                <element signature="e#4380#4381#0" expanded="true" />
+                <element signature="e#4435#4436#0" expanded="true" />
+                <element signature="e#4463#4464#0" expanded="true" />
+                <element signature="e#4524#4525#0" expanded="true" />
+                <element signature="e#4552#4553#0" expanded="true" />
+                <element signature="e#6047#6048#0" expanded="true" />
+                <element signature="e#6075#6076#0" expanded="true" />
+                <element signature="e#6132#6133#0" expanded="true" />
+                <element signature="e#6160#6161#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RrrCatPlayScreen.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/RrrCatPlayScreen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1887">
-              <caret line="140" column="32" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidLauncher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/src/com/amerticum/funcry/AndroidLauncher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RrrCat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/amerticum/funcry/model/RrrCat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PussyCatsPlayScreen.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PussyCatsPlayScreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/PussyCatsPlayScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="80" column="51" selection-start-line="80" selection-start-column="51" selection-end-line="80" selection-end-column="51" />
+            <state relative-caret-position="2417">
+              <caret line="195" column="9" selection-start-line="195" selection-start-column="9" selection-end-line="195" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1074#1094#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PussyCats.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/amerticum/funcry/model/PussyCats.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
-              <caret line="86" column="49" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/amerticum/funcry/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -2694,11 +2536,12 @@
         <option value="$PROJECT_DIR$/core/src/com/amerticum/funcry/model/PussyCats.java" />
         <option value="$PROJECT_DIR$/core/src/com/amerticum/funcry/model/Cat.java" />
         <option value="$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/CatPlayScreen.java" />
-        <option value="$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/MainMenu.java" />
-        <option value="$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/PussyCatsPlayScreen.java" />
         <option value="$PROJECT_DIR$/core/src/com/amerticum/funcry/Constants.java" />
         <option value="$PROJECT_DIR$/android/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/RrrCatPlayScreen.java" />
+        <option value="$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/MainMenu.java" />
+        <option value="$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/PussyCatsPlayScreen.java" />
+        <option value="$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/Test.java" />
       </list>
     </option>
   </component>
@@ -2745,10 +2588,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2759,6 +2600,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2770,7 +2613,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="device.picker.selection" value="DUFU755DGUB69TZL" />
+    <property name="device.picker.selection" value="192.168.35.101:5555" />
   </component>
   <component name="RunManager" selected="Android App.android">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -3113,7 +2956,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478102039483</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Developping separation cat and pussy cats 2">
+      <created>1478102444618</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1478102444618</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3127,12 +2977,12 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38864142" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38864142" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
@@ -3152,6 +3002,39 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14978679" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850778" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38864142" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1380597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -3168,7 +3051,8 @@
     <MESSAGE value="Refactor with stage and actor" />
     <MESSAGE value="Developping separation cat and pussy cats" />
     <MESSAGE value="Developping separation cat and pussy cats 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Developping separation cat and pussy cats 2" />
+    <MESSAGE value="Camera ajusted" />
+    <option name="LAST_COMMIT_MESSAGE" value="Camera ajusted" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -3183,26 +3067,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/PussyCatsPlayScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/RrrCatPlayScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
@@ -3235,6 +3099,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1074#1094#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3279,6 +3144,7 @@
           <caret line="47" column="68" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1074#1094#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3322,6 +3188,7 @@
           <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1074#1094#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3365,6 +3232,7 @@
           <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1074#1094#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3408,6 +3276,7 @@
           <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1074#1094#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3451,6 +3320,7 @@
           <caret line="159" column="14" selection-start-line="159" selection-start-column="14" selection-end-line="159" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1074#1094#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3465,13 +3335,6 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/Stack.java" />
     <entry file="file://$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/State.java" />
     <entry file="file://$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/GameStateManager.java" />
-    <entry file="file://$PROJECT_DIR$/core/src/com/amerticum/funcry/model/TouchInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/GameInputProcessor.java" />
     <entry file="file://$PROJECT_DIR$/android/res/drawable-xxhdpi/ic_launcher.png">
       <provider selected="true" editor-type-id="images">
@@ -3505,16 +3368,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/amerticum/funcry/model/RrrCat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/MainMenu.java">
+    <entry file="file://$PROJECT_DIR$/android/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="82" />
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.4/f0e4d245a67fc96707610a4260a325fa034c93d1/gdx-1.9.4-sources.jar!/com/badlogic/gdx/scenes/scene2d/ui/ImageButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1554#1555#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3527,37 +3411,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/amerticum/funcry/model/PussyCats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="86" column="49" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/amerticum/funcry/model/RrrCat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/RrrCatPlayScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1887">
-          <caret line="140" column="32" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
+        <state relative-caret-position="139">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -3570,12 +3427,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/PussyCatsPlayScreen.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/amerticum/funcry/model/PussyCats.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="80" column="51" selection-start-line="80" selection-start-column="51" selection-end-line="80" selection-end-column="51" />
+        <state relative-caret-position="232">
+          <caret line="86" column="49" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/amerticum/funcry/model/TouchInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="114" column="47" selection-start-line="114" selection-start-column="47" selection-end-line="114" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/PussyCatsPlayScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2417">
+          <caret line="195" column="9" selection-start-line="195" selection-start-column="9" selection-end-line="195" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1074#1094#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/amerticum/funcry/screens/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1226#1246#0" expanded="true" />
+            <element signature="e#2165#2174#0" expanded="true" />
+            <element signature="e#2217#2224#0" expanded="true" />
+            <element signature="e#4352#4353#0" expanded="true" />
+            <element signature="e#4380#4381#0" expanded="true" />
+            <element signature="e#4435#4436#0" expanded="true" />
+            <element signature="e#4463#4464#0" expanded="true" />
+            <element signature="e#4524#4525#0" expanded="true" />
+            <element signature="e#4552#4553#0" expanded="true" />
+            <element signature="e#6047#6048#0" expanded="true" />
+            <element signature="e#6075#6076#0" expanded="true" />
+            <element signature="e#6132#6133#0" expanded="true" />
+            <element signature="e#6160#6161#0" expanded="true" />
           </folding>
         </state>
       </provider>
