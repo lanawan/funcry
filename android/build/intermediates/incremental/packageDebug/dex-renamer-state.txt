@@ -1,4 +1,4 @@
-#Thu Nov 03 17:59:02 MSK 2016
-base.0=C\:\\dev\\Android\\Projects\\funcry\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+#Fri Nov 04 20:52:06 AST 2016
+base.0=F\:\\dev\\Android\\Projects\\funcry\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.0=C\:\\dev\\Android\\Projects\\funcry\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.0=F\:\\dev\\Android\\Projects\\funcry\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

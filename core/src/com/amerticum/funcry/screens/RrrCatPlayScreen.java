@@ -1,9 +1,9 @@
 package com.amerticum.funcry.screens;
 
 import com.amerticum.funcry.Constants;
-import com.amerticum.funcry.model.RrrCat;
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.audio.Music;
@@ -12,20 +12,14 @@ import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import com.badlogic.gdx.math.Vector3;
-import com.badlogic.gdx.scenes.scene2d.Stage;
-import com.badlogic.gdx.scenes.scene2d.ui.Skin;
-import com.badlogic.gdx.utils.viewport.ScreenViewport;
 
-import static com.badlogic.gdx.Input.Peripheral.Vibrator;
-import static jdk.nashorn.internal.objects.Global.println;
 
 /**
  * Created by Java-программист on 24.10.2016.
  */
 
 public class RrrCatPlayScreen implements Screen, InputProcessor {
+    private Game game;
     private TextureAtlas rrrCatAtlas;
     private Music rrr;
     private OrthographicCamera camera;
@@ -36,6 +30,7 @@ public class RrrCatPlayScreen implements Screen, InputProcessor {
     private float defaultWidth, defaultHeight;
 
     public RrrCatPlayScreen(Game game) {
+        this.game = game;
         batch = new SpriteBatch();
         rrrCatAtlas = new TextureAtlas("cats/fun/cat.pack");
         rrrCatAnimation = new Animation(Constants.RRR_ANIMATION_SPEED,rrrCatAtlas.getRegions());
@@ -52,6 +47,7 @@ public class RrrCatPlayScreen implements Screen, InputProcessor {
         camera.setToOrtho(false, defaultWidth, defaultHeight);
 
         Gdx.input.setInputProcessor(this);
+        Gdx.input.setCatchBackKey(true);
     }
     @Override
     public void show(){
@@ -104,6 +100,10 @@ public class RrrCatPlayScreen implements Screen, InputProcessor {
 
     @Override
     public boolean keyDown(int keycode) {
+        if(keycode == Keys.BACK) {
+            game.setScreen(new MainMenu(game));
+            return true;
+        }
         return false;
     }
 

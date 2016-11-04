@@ -3,75 +3,48 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\Java-программист\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.4\4b4b7962d1bc75af0438f5c81ec1010557bc9ee5\gdx-1.9.4.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="4b4b7962d1bc75af0438f5c81ec1010557bc9ee5">
-        <dex dex="C:\dev\Android\Projects\funcry\android\build\intermediates\pre-dexed\debug\gdx-1.9.4_13f56e14c2e5a562a105afd4284351d0ade37cc4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Java-программист\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-box2d\1.9.4\98a0d25c9f0637fecac6e4aacf7287aa635964f5\gdx-box2d-1.9.4.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="98a0d25c9f0637fecac6e4aacf7287aa635964f5">
-        <dex dex="C:\dev\Android\Projects\funcry\android\build\intermediates\pre-dexed\debug\gdx-box2d-1.9.4_0e066a9dade033a8c7a599c2f6d1c5b1470fe56f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Java-программист\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.4\4b4b7962d1bc75af0438f5c81ec1010557bc9ee5\gdx-1.9.4.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="4b4b7962d1bc75af0438f5c81ec1010557bc9ee5">
-        <dex dex="C:\dev\Android\Projects\funcry\android\build\intermediates\pre-dexed\debug\gdx-1.9.4_13f56e14c2e5a562a105afd4284351d0ade37cc4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Java-программист\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-box2d\1.9.4\98a0d25c9f0637fecac6e4aacf7287aa635964f5\gdx-box2d-1.9.4.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="98a0d25c9f0637fecac6e4aacf7287aa635964f5">
-        <dex dex="C:\dev\Android\Projects\funcry\android\build\intermediates\pre-dexed\debug\gdx-box2d-1.9.4_0e066a9dade033a8c7a599c2f6d1c5b1470fe56f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\dev\Android\Projects\funcry\android\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="6e60c778168cbc9ab39f88d9ef231f31d66c652a">
-        <dex dex="C:\dev\Android\Projects\funcry\android\build\intermediates\pre-dexed\debug\instant-run-bootstrap_603d6679967527ea7d4e3bf81c138b8a33109c84.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Java-программист\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.9.4\194b33382d6d58fad031521ba3331d926c476c9b\gdx-backend-android-1.9.4.jar"
+        jar="C:\Users\Гризли\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.9.4\194b33382d6d58fad031521ba3331d926c476c9b\gdx-backend-android-1.9.4.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="194b33382d6d58fad031521ba3331d926c476c9b">
-        <dex dex="C:\dev\Android\Projects\funcry\android\build\intermediates\pre-dexed\debug\gdx-backend-android-1.9.4_1583977da1d2358a2cb9e685c9edfd59a5e94444.jar" />
+        <dex dex="F:\dev\Android\Projects\funcry\android\build\intermediates\pre-dexed\debug\gdx-backend-android-1.9.4_53a029e8dd6f8b14b9702c024d9cbc56f3b0c421.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Java-программист\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.9.4\194b33382d6d58fad031521ba3331d926c476c9b\gdx-backend-android-1.9.4.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="194b33382d6d58fad031521ba3331d926c476c9b">
-        <dex dex="C:\dev\Android\Projects\funcry\android\build\intermediates\pre-dexed\debug\gdx-backend-android-1.9.4_1583977da1d2358a2cb9e685c9edfd59a5e94444.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\dev\Android\Projects\funcry\android\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="F:\dev\Android\Projects\funcry\android\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="650eb6ff95ab56cf415f8ad82c64140129d30d17">
-        <dex dex="C:\dev\Android\Projects\funcry\android\build\intermediates\pre-dexed\debug\instant-run_04c1f8dbed826f5dd1e1ac80d90e30a33de805cc.jar" />
+        sha1="8e8a2ddb07e913e87703dbcdf1fb2ee2f293cfbf">
+        <dex dex="F:\dev\Android\Projects\funcry\android\build\intermediates\pre-dexed\debug\instant-run_80a433e9bc05ceb4a1b686bb5aff57bd83ecf711.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Гризли\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.4\4b4b7962d1bc75af0438f5c81ec1010557bc9ee5\gdx-1.9.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4b4b7962d1bc75af0438f5c81ec1010557bc9ee5">
+        <dex dex="F:\dev\Android\Projects\funcry\android\build\intermediates\pre-dexed\debug\gdx-1.9.4_b737c9140b533f1588426f75c49a37766dfcecd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Гризли\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-box2d\1.9.4\98a0d25c9f0637fecac6e4aacf7287aa635964f5\gdx-box2d-1.9.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="98a0d25c9f0637fecac6e4aacf7287aa635964f5">
+        <dex dex="F:\dev\Android\Projects\funcry\android\build\intermediates\pre-dexed\debug\gdx-box2d-1.9.4_55b68b244a2303a95ae3df397a75996cec4b8d5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\dev\Android\Projects\funcry\android\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a52aa77d16bc23de61713db3c5cc618519413bd5">
+        <dex dex="F:\dev\Android\Projects\funcry\android\build\intermediates\pre-dexed\debug\instant-run-bootstrap_042a4b55203ddcc9f403a87f2d1caeae81d2009a.jar" />
     </item>
 
 </items>

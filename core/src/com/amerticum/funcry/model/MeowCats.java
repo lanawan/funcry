@@ -34,23 +34,9 @@ public class MeowCats {
         this.active = active;
     }
 
-/*
-    private void updateMotion() {
-        if (leftMove) {
-            posX -= 5 * Gdx.graphics.getDeltaTime();
-        }
-        if (rightMove)
-        {
-            posX += 5 * Gdx.graphics.getDeltaTime();
-        }
-    }
-*/
-
-
     public Texture getFace(){
         return faces.get(characterState);
     }
-
 
     public void increaseCharacterState(){
         if (cries.get(characterState).isPlaying()) {
@@ -97,6 +83,5 @@ public class MeowCats {
     public void dispose(){
         for(Texture t : faces) t.dispose();
         for(Music m : cries) m.dispose();
-        dispose();
     }
 }

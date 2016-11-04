@@ -1,10 +1,11 @@
 package com.amerticum.funcry.screens;
 
 import com.amerticum.funcry.Constants;
-import com.amerticum.funcry.model.PussyCats;
+import com.amerticum.funcry.model.MeowCats;
 import com.amerticum.funcry.model.TouchInfo;
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.audio.Music;
@@ -12,9 +13,7 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.math.Vector3;
-import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.viewport.StretchViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
@@ -35,7 +34,7 @@ public class MeowCatsPlayScreen implements Screen, InputProcessor {
     private Viewport viewport;
     private Vector3 touchPos;
     private Map<Integer, TouchInfo> touches = new HashMap<Integer, TouchInfo>();
-    private Array<PussyCats> CryingEntities;
+    private Array<MeowCats> CryingEntities;
     private int defaultHeight;
 
     public MeowCatsPlayScreen(Game game) {
@@ -55,7 +54,7 @@ public class MeowCatsPlayScreen implements Screen, InputProcessor {
             touches.put(i, new TouchInfo());
         }
 
-        CryingEntities = new Array<PussyCats>();
+        CryingEntities = new Array<MeowCats>();
         for (int i = 1; i <= Constants.CHARACTER_COUNT; i++) {
             Array<Texture> tf = new Array<Texture>();
             Array<Music> ac = new Array<Music>();
@@ -70,19 +69,19 @@ public class MeowCatsPlayScreen implements Screen, InputProcessor {
                 tf.add(new Texture("cats/cry/images/"+i+"image" + j + ".png"));
             }
 
-            CryingEntities.add(new PussyCats(tf, ac, 0, 0, false));
+            CryingEntities.add(new MeowCats(tf, ac, 0, 0, false));
         }
         Gdx.input.setInputProcessor(this);
+        Gdx.input.setCatchBackKey(true);
     }
     @Override
     public void dispose() {
         background.dispose();
-        for (PussyCats ce : CryingEntities) ce.dispose();
+        for (MeowCats ce : CryingEntities) ce.dispose();
         touches.clear();
     }
     @Override
     public void show() {
-
     }
     @Override
     public void render(float delta) {
@@ -91,7 +90,7 @@ public class MeowCatsPlayScreen implements Screen, InputProcessor {
         batch.setProjectionMatrix(camera.combined);
         batch.begin();
         batch.draw(background,0,0);
-        for (PussyCats ce : CryingEntities) {
+        for (MeowCats ce : CryingEntities) {
             if (ce.isActive()) {
 
                 float screenRatioX = (float)viewport.getScreenWidth()/(float)camera.viewportWidth;
@@ -128,6 +127,10 @@ public class MeowCatsPlayScreen implements Screen, InputProcessor {
 
     @Override
     public boolean keyDown(int keycode) {
+        if(keycode == Keys.BACK) {
+            game.setScreen(new MainMenu(game));
+            return true;
+        }
         return false;
     }
 
