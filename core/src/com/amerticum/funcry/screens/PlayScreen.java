@@ -82,7 +82,7 @@ public class PlayScreen implements Screen, InputProcessor {
         batch.begin();
         for (Character ce : CryingEntities) {
             if (ce.isActive()) {
-                batch.draw(ce.getFace(), ce.getPosX() , ce.getPosY());
+                batch.draw(ce.getFace(), ce.getPosX() , Gdx.graphics.getHeight()-ce.getPosY());
             }
         }
         batch.end();
@@ -139,7 +139,7 @@ public class PlayScreen implements Screen, InputProcessor {
                 CryingEntities.get(pointer).increaseCharacterState();
                 counter=0;
             }
-System.out.printf("Position : %d %d\n",Gdx.input.getX(pointer),Gdx.input.getY(pointer));
+
         }
         return true;
     }
