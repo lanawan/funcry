@@ -3,6 +3,8 @@ package com.amerticum.funcry.model;
 import com.amerticum.funcry.Constants;
 import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.Animation;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.utils.Array;
 
 /**
@@ -10,42 +12,29 @@ import com.badlogic.gdx.utils.Array;
  */
 
 public class MeowCats {
-    private Array<Texture> faces;
-    private Array<Music> cries;
     private int posX;
     private int posY;
     private boolean active;
     private int defaultWidth;
     private int defaultHeight;
-    private Texture activeFace;
-    private Music activeCry;
-    private int characterState;
+    private TextureAtlas meowCatAtlas;
+    private Animation meowCatAnimation;
+    private Music meow;
+    private int meowCatScreens;
 
-    public MeowCats(Array<Texture> faces, Array<Music> cries, int posX, int posY, boolean active) {
-        characterState = 0;
-        defaultWidth = faces.get(0).getWidth();
-        defaultHeight = faces.get(0).getHeight();
-        activeFace = faces.get(characterState);
-        activeCry = cries.get(characterState);
-        this.faces = faces;
-        this.cries = cries;
+    public MeowCats(TextureAtlas meowCatAtlas, Music meow, int posX, int posY, boolean active) {
+        this.meowCatAtlas = meowCatAtlas;
+        this.meow = meow;
+        meowCatAnimation = new Animation(Constants.MEOW_ANIMATION_SPEED,meowCatAtlas.getRegions());
+        defaultWidth = meowCatAtlas.findRegion("cat1").getRegionWidth();
+        defaultHeight = meowCatAtlas.findRegion("cat1").getRegionHeight();
         this.posX = posX;
         this.posY = posY;
         this.active = active;
     }
 
-    public Texture getFace(){
-        return faces.get(characterState);
-    }
-
-    public void increaseCharacterState(){
-        if (cries.get(characterState).isPlaying()) {
-            cries.get(characterState).stop();
-        }
-        characterState++;
-        if(characterState >= Constants.CHARACTER_COUNT){
-            characterState = 0;
-        }
+    public Animation getMeowCatAnimation(){
+        return meowCatAnimation;
     }
 
     public int getPosX() {
@@ -69,19 +58,19 @@ public class MeowCats {
     public void setActive(boolean active){
         this.active = active;
         if(active) {
-            if (!cries.get(characterState).isPlaying()){
-                cries.get(characterState).play();
+            if (!meow.isPlaying()){
+                meow.play();
             }
         }
         else{
-            if (cries.get(characterState).isPlaying()) {
-                cries.get(characterState).pause();
+            if (meow.isPlaying()) {
+                meow.pause();
             }
         }
     }
 
     public void dispose(){
-        for(Texture t : faces) t.dispose();
-        for(Music m : cries) m.dispose();
+        meow.dispose();
+        meowCatAtlas.dispose();
     }
 }

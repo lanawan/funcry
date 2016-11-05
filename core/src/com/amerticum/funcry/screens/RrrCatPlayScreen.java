@@ -64,7 +64,7 @@ public class RrrCatPlayScreen implements Screen, InputProcessor {
         pleasureLvl = pleasureLvl - delta/Constants.RRR__PLEASURE_DOWN_VELOCITY > 0f ? pleasureLvl - delta/Constants.RRR__PLEASURE_DOWN_VELOCITY : 0f;
         rrr.setVolume(pleasureLvl);
         elapsedTime += delta;
-        if(elapsedTime>=Constants.RRR__CAT_SCREENS){ elapsedTime = 0; }
+        if(elapsedTime>=Constants.MAX_FRAMES){ elapsedTime = 0; }
 
         Gdx.gl.glClearColor(0, 0, 0, 0);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
@@ -96,11 +96,13 @@ public class RrrCatPlayScreen implements Screen, InputProcessor {
     public void dispose() {
         batch.dispose();
         rrrCatAtlas.dispose();
+        rrr.dispose();
     }
 
     @Override
     public boolean keyDown(int keycode) {
         if(keycode == Keys.BACK) {
+            dispose();
             game.setScreen(new MainMenu(game));
             return true;
         }
