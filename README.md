@@ -1,1 +1,2 @@
-FunCry
+FunCry Android application.
+Relax : cats only cats...

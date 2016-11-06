@@ -21,6 +21,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="F:\dev\Android\Projects\funcry\android\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="eca92c58ea234ec8c130eb97d4da3ea26ab41413">
+        <dex dex="F:\dev\Android\Projects\funcry\android\build\intermediates\pre-dexed\debug\instant-run_80a433e9bc05ceb4a1b686bb5aff57bd83ecf711.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Гризли\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.4\4b4b7962d1bc75af0438f5c81ec1010557bc9ee5\gdx-1.9.4.jar"
         jumboMode="true"
         optimize="true"
@@ -39,21 +48,21 @@
     </item>
     <item
         is-multidex="false"
+        jar="F:\dev\Android\Projects\funcry\android\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f5cd18ed31bcb366a511019fb6d13d7ab46dd52e">
+        <dex dex="F:\dev\Android\Projects\funcry\android\build\intermediates\pre-dexed\debug\instant-run-bootstrap_042a4b55203ddcc9f403a87f2d1caeae81d2009a.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Гризли\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-box2d\1.9.4\98a0d25c9f0637fecac6e4aacf7287aa635964f5\gdx-box2d-1.9.4.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
         sha1="98a0d25c9f0637fecac6e4aacf7287aa635964f5">
         <dex dex="F:\dev\Android\Projects\funcry\android\build\intermediates\pre-dexed\debug\gdx-box2d-1.9.4_55b68b244a2303a95ae3df397a75996cec4b8d5f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="F:\dev\Android\Projects\funcry\core\build\libs\core-1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="9503292430ff2f47c9549ecc2d02394ec1a1095a">
-        <dex dex="F:\dev\Android\Projects\funcry\android\build\intermediates\pre-dexed\debug\core-1.0_ace177ef823e0703cd858c195ca5ca3941bc6b39.jar" />
     </item>
     <item
         is-multidex="false"
